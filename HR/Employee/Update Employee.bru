@@ -1,0 +1,26 @@
+meta {
+  name: Update Employee
+  type: http
+  seq: 2
+}
+
+put {
+  url: http://localhost:8080/employee/c136d593-cd11-4915-a859-0b67d7f77015
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "firstName":"bashar",
+    "lastName":"khoujah",
+    "email":"basharhas@gmail.com",
+    "phoneNumber":"05522998384",
+    "jobId":"3ef87dc2-0d32-4030-8141-82e96ae13b89",
+    "salary":"45000",
+    "commissionPct":"0.2",
+    "departmentId":"6a56782f-1fee-45c1-a5f1-03ec8939b95b",
+    "managerId":"c136d593-cd11-4915-a859-0b67d7f77015"
+  
+  }
+}

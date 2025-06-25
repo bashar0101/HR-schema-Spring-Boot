@@ -1,0 +1,21 @@
+meta {
+  name: Create location
+  type: http
+  seq: 3
+}
+
+post {
+  url: http://localhost:8080/api/v1/region/location
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "streetAddress":"G/27.",
+    "postalCode":"33404",
+    "city":"Istanbul",
+    "stateProvince":"Zeytinburnu",
+    "countryId":"4b7337cf-414e-4e2f-a237-25bc908f4c5a"
+  }
+}

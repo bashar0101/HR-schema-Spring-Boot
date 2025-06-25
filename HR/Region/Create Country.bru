@@ -1,0 +1,18 @@
+meta {
+  name: Create Country
+  type: http
+  seq: 2
+}
+
+post {
+  url: http://localhost:8080/api/v1/region/country
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "countryName":"Turkey",
+    "regionId":"82462b6c-9230-46c7-b48d-22067d484311"
+  }
+}

@@ -1,0 +1,25 @@
+meta {
+  name: Create Employee
+  type: http
+  seq: 1
+}
+
+post {
+  url: http://localhost:8080/employee
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "firstName":"bashar",
+    "lastName":"khoujah",
+    "email":"basharhas@gmail.com",
+    "phoneNumber":"05522998384",
+    "jobId":"40cf0491-4409-45c7-a501-0664fee9bc59",
+    "salary":"45000",
+    "commissionPct":"0.2",
+    "departmentId":"d5a90a12-f785-4adc-8199-c4582019dc37"
+  
+  }
+}

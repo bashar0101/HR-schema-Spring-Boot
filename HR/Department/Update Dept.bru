@@ -1,0 +1,19 @@
+meta {
+  name: Update Dept
+  type: http
+  seq: 3
+}
+
+put {
+  url: http://localhost:8080/api/v1/department/d5a90a12-f785-4adc-8199-c4582019dc37
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "departmentName":"IT",
+    "locationId":"6fb009f1-0861-4666-bd6d-886589f6992c",
+    "managerId":"62aee86f-071f-45f0-a580-843e362f1f78"
+  }
+}

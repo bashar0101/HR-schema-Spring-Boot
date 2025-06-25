@@ -1,0 +1,18 @@
+meta {
+  name: Get All Depts
+  type: http
+  seq: 2
+}
+
+get {
+  url: http://localhost:8080/api/v1/department
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "departmentName":"IT",
+    "locationId":"2ebe03b1-f055-47e6-ae8a-0120575091b8"
+  }
+}
