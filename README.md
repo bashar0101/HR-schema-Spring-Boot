@@ -22,7 +22,8 @@ The goal of this project is to replicate the Oracle HR schema in a PostgreSQL en
 
 Here is a visual representation of the HR schema used in this project:
 
-![HR Schema Diagram](![cncpt292](https://github.com/user-attachments/assets/22cf6227-7ef3-47fd-96b3-eb787c415e9c))  
+![HR Schema Diagram]
+![cncpt292](https://github.com/user-attachments/assets/2dfbba98-ce8b-445e-ad88-532387a0a492)
 
 
 ## 🏃‍♂️ Getting Started
@@ -30,5 +31,5 @@ Here is a visual representation of the HR schema used in this project:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
+   git clone https://github.com/bashar0101/HR-schema-Spring-Boot.git
    
