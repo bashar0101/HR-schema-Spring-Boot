@@ -21,6 +21,8 @@ The goal of this project is to replicate the Oracle HR schema in a PostgreSQL en
 ## 🗃️ Schema Overview
 
 Here is a visual representation of the HR schema used in this project:
+
+
 ![cncpt292](https://github.com/user-attachments/assets/2dfbba98-ce8b-445e-ad88-532387a0a492)
 
 
